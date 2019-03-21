@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/andrewhoulbrook
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://andrewhoulbrook.github.io
+  * I am andrewhoulbrook (https://keybase.io/andrewhoulbrook) on keybase.
+  * I have a public key ASBYv7rHii4yUK8L3PzDQuzRYKV3-dYcZCLEN00AsNyOiQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012058bfbac78a2e3250af0bdcfcc342ecd160a577f9d61c6422c4374d00b0dc8e890a",
+      "host": "keybase.io",
+      "kid": "012058bfbac78a2e3250af0bdcfcc342ecd160a577f9d61c6422c4374d00b0dc8e890a",
+      "uid": "479560587b2508c1535e5d4ada649c19",
+      "username": "andrewhoulbrook"
+    },
+    "merkle_root": {
+      "ctime": 1553142244,
+      "hash": "39b7d668f4bd5ae2721d54e617cd6d45fa0adb6c87f75842ec6193fabf141be973d204c1214989868068ae75dd4f5666091a552c37504a7862e3f1ae512d138a",
+      "hash_meta": "4c083e2a73c4560d796053303849e4936d9514882b7cd38ffc997acca48de102",
+      "seqno": 4993345
+    },
+    "service": {
+      "entropy": "wAbp04aVIrA3Gh9fjh/EcB/e",
+      "hostname": "andrewhoulbrook.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "3.1.2"
+  },
+  "ctime": 1553142267,
+  "expire_in": 504576000,
+  "prev": "06a680939aec93563835ed93bd2831550ad034d414d3ce183df6c50b4542925d",
+  "seqno": 10,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgWL+6x4ouMlCvC9z8w0Ls0WCld/nWHGQixDdNALDcjokKp3BheWxvYWTESpcCCsQgBqaAk5rsk1Y4Ne2TvSgxVQrQNNQU084YPfbFC0VCkl3EIKz4Mn2a0jWZlilKF73IoxWGQbz8+QAuenaFzxNQyAeEAgHCo3NpZ8RAfpPNlOU0nvqA1Fm4C35k6camIOIdD8OSk2JxzKbBnUw12qe1Vjg32D0cl1rKJSqprb3uMSyQx/mPp0IuQnDnCahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIBGTz3uHDwrnDTYVuASdj0chJC5ufaPaUhdg0HZNs5bZo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/andrewhoulbrook
+
+==================================================================
