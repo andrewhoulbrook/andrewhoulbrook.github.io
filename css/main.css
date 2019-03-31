@@ -1,0 +1,257 @@
+/* public basic */
+body, html {
+    font-size: 62.5%;
+}
+
+body {
+	line-height: 1;
+    font: 16px "Noto Sans", "Noto Sans CJK SC", sans-serif;
+    font-weight: 100;
+    color: rgb(58, 63, 82);
+}
+
+h1, h2, h3, h4{
+    font-family: "Noto Sans", "Noto Sans CJK SC", sans-serif;
+    font-weight: 100;
+    color: rgb(58, 63, 82);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+h1{
+	font-size: 3rem;
+	letter-spacing: -1px;
+	color: rgb(58, 63, 82);
+	font-weight: 700;
+}
+
+h2{
+	font-size: 2.8rem;
+}
+
+h3 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+h4 {
+	font-size: 1.6rem;
+}
+
+a {
+	color:  rgb(58, 63, 82);
+	text-decoration: underline;
+}
+
+p { 
+	line-height: 1.7;
+	color:  rgb(58, 63, 82);
+	font-weight: 300;
+	margin-bottom: 20px;
+	letter-spacing: 0.4px;
+}
+
+.wrapper{
+    display: grid;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+    margin: auto auto;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: left;
+} 
+
+/* ----------- Tablet ----------- */
+@media screen 
+  and (min-width: 600px) {
+    .container{font-size: 100%;}
+}
+
+/* ----------- Laptop ------------- */
+@media only screen 
+  and (min-width: 768px) {
+    .container{font-size: 90%;}
+}
+
+/* Main */
+
+.container#main {
+    background-color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.link .selfie{
+    width: 160px;
+    margin-bottom: 25px;
+    border-radius: 100%;
+    transition: all .2s;
+    box-shadow: 0;
+    opacity: 1;
+    text-align: center;
+    align-items: center;
+    justify-items: center;    
+}
+
+.link .selfie:hover{
+    box-shadow: 0 0px 4px 0 rgba(0,0,0,0.18), 0 0px 12px 0 rgba(0,0,0,0.15);
+    opacity: .8;
+}
+
+.title{
+    font-size: 3rem;
+    margin: 0 0 13px;
+}
+
+.description{
+    font-size: 1.85rem;
+    font-weight: 300;
+    font-style: normal;
+    color:  rgb(58, 63, 82);
+    width: 70%;
+    margin: 0 auto 30px;
+}
+
+.social-links{
+    margin-top: 20px;
+}
+
+.social-links .link{
+    margin: 0;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+}
+
+.social-links .link:hover .icon{
+    fill: #111;
+}
+
+.social-links .link:hover:before {
+    opacity: 1;
+    display: inline-block;
+    transform: translate3d(0,0,0);
+    white-space: nowrap;
+}
+
+.social-links .link:before{
+    content: attr(data-title);
+    display: none;
+    position: absolute;
+    bottom: -34px;
+    left: -6px;
+    margin: 0 auto;
+    font-size: 13px;
+    padding: 3px 10px;
+    background: #111;
+    color: #fff;
+    border-radius: 2px;
+    height: 22px;
+    line-height: 22px;
+    opacity: 0;
+    transition: opacity 150ms linear, transform 150ms linear, -webkit-transform 150ms linear;
+    transform: translate3d(0,-8px,0);
+    z-index: 99;
+}
+
+.social-links .link:after{
+    content: "";
+    position: absolute;
+    top: 35px;
+    left: 13px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 6px solid #111;
+    opacity: 0;
+    transition: opacity 150ms linear, transform 150ms linear, -webkit-transform 150ms linear;
+    transform: translate3d(0,-8px,0);
+    z-index: 100;
+}
+
+.social-links .link:hover:after{
+    opacity: 1;
+    transform: translate3d(0,0,0);
+}
+
+.social-links .icon{
+    transition: all ease-in-out .2s;
+}
+
+/* Contact */
+
+.contact {
+    margin: 30px auto;
+}
+
+.contact p {
+    font-weight: 100;
+    color: rgb(58, 63, 82);
+    text-align: center; 
+    overflow-wrap: break-word;
+}
+
+.contact span {
+	font-weight: 400;
+	color: #0095f7;
+}
+
+/* Footer */
+
+.footer-main{
+    border-top: 1px solid 0px;
+    padding: 0;
+    margin: 0 0;
+    font-size: 1.3rem;
+    color: #777;
+    font-weight: 300;
+    text-align: center;
+    position: relative;
+}
+
+.footer-main .link{
+    display: inline;
+}
+
+.footer-main .link .icon{
+    transition: ease-in-out all .3s;
+    position: relative;
+    top: 3px;
+    display: inherit;
+    margin: 0;
+}
+
+.footer-main .link .icon:hover{
+    fill: #777
+}
+
+.footer-main .extra{
+    color: #777;
+    margin-top: 0;
+}
+
+.footer-main .extra .link{
+    color: #777;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: ease-in-out all .3s;
+    padding-bottom: 1px;
+}
+
+.footer-main .extra .link:hover{
+    border-color: #111
+}
