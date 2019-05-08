@@ -9,6 +9,7 @@
     <meta name=author content="Andrew Houlbrook">
     <link href='https://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/main.css">
+    <!-- Icons for social media platforms -->
     <svg display="none" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <defs>            
             <symbol id="icon-github" viewBox="0 0 1024 1024">
@@ -38,6 +39,7 @@
             </symbol>    
         </defs>
     </svg>
+    <!-- Script to generate my contact email address -->
     <script>
         // email address as base64 string
         let encodedString = "aG91bGJyb29rLmFuZHJld0BvdXRsb29rLmNvbQo=";
@@ -47,14 +49,24 @@
             document.getElementById("showEmail").innerHTML = "<p>" + decodedString + "</p>";
         }
     </script>
+    <!-- Capture site analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139056407-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-139056407-1');
+    </script>
 </head>
 <body>
 <div class="wrapper">
     <div id="main" class="container">
+        <!-- A picture of me -->
         <span class="link">
             <img class="selfie" alt="Andrew Houlbrook" src="img/head-img.png" />
         </span>     
         <h1 class="title">Andrew Houlbrook</h1>
+        <!-- Places you can find me -->
         <div class="social-links">
             <a class="link" data-title="linkedin.com/in/andrewhoulbrook" href="http://linkedin.com/in/andrewhoulbrook" target="_blank">
                 <svg class="icon icon-linkedin" width="30" height="30"><use xlink:href="#icon-linkedin"></use></svg>
@@ -72,6 +84,7 @@
                 <svg class="icon icon-mapmarker" width="30" height="30"><use xlink:href="#icon-mapmarker"></use></svg>
             </a>
         </div>
+        <!-- How to contact me -->
         <div class="contact">  
             <p><span>PGP Fingerprint: </span>D28C 0874 D8FA 74BF C2D6 336A C6D9 B1A6 7281 3594  
                 <a class="link" data-title="Public Key" href="https://keybase.io/andrewhoulbrook/pgp_keys.asc?fingerprint=d28c0874d8fa74bfc2d6336ac6d9b1a672813594" target="_blank">
@@ -86,6 +99,7 @@
         </div>
     </div>
 </div>
+<!-- Footer section -->
 <footer class="footer-main">Andrew Houlbrook © 2019
     <p class="extra">
         <a class="link" href="https://github.com/sergiokopplin/indigo">Adpated from Indigo theme</a> by <a class="link" href="https://github.com/sergiokopplin/indigo">Kopplin</a>
