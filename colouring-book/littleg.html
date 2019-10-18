@@ -336,6 +336,9 @@
 		}
 	});
 
+	// Function control palette colour selections
+    $("#palette").click(function (event) { $(event.target).getColour(); })
+
 	// Functions to re-colour the SVG images
     $("#fox").click(function (event) { $(event.target).attr('style', $(event.target).getColour()); })
     $("#dog").click(function (event) { $(event.target).attr('style', $(event.target).getColour()); })
@@ -408,7 +411,7 @@
     });  
 	$(document).ready(function(){
 		$("#clear").click(function(){
-			location.reload(true);
+			location.reload();
 		});
 	});  
 </script>
