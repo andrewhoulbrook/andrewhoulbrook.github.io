@@ -9,42 +9,19 @@
     <meta name=author content="Andrew Houlbrook">
     <link href='https://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/main.css">
-    <!-- Icons for social media platforms -->
-    <svg display="none" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-        <defs>            
-            <symbol id="icon-github" viewBox="0 0 1024 1024">
-                <title>github</title>
-                <path class="path1" d="M674.816 579.021c-36.762 0-66.56 41.318-66.56 92.109 0 50.893 29.798 92.211 66.56 92.211s66.56-41.318 66.56-92.211c-0.051-50.79-29.798-92.109-66.56-92.109zM906.547 339.251c7.629-18.688 7.936-124.877-32.512-226.611 0 0-92.723 10.189-233.011 106.496-29.44-8.192-79.258-12.186-128.973-12.186-49.818 0-99.584 3.994-129.024 12.186-140.339-96.307-233.062-106.496-233.062-106.496-40.397 101.734-39.987 207.923-32.461 226.611-47.514 51.61-76.544 113.613-76.544 198.195 0 367.923 305.306 373.811 382.31 373.811 17.51 0 52.122 0.102 88.781 0.102 36.608 0 71.27-0.102 88.678-0.102 77.107 0 382.31-5.888 382.31-373.811 0-84.582-28.979-146.586-76.493-198.195zM513.434 866.048h-2.867c-193.075 0-343.501-22.989-343.501-210.688 0-45.005 15.872-86.682 53.606-121.293 62.822-57.702 169.216-27.187 289.894-27.187 0.512 0 1.024 0 1.485 0 0.512 0 0.922 0 1.382 0 120.678 0 227.123-30.515 289.997 27.187 37.632 34.611 53.504 76.288 53.504 121.293 0 187.699-150.374 210.688-343.501 210.688zM349.235 579.021c-36.762 0-66.56 41.318-66.56 92.109 0 50.893 29.798 92.211 66.56 92.211 36.813 0 66.611-41.318 66.611-92.211 0-50.79-29.798-92.109-66.611-92.109z"></path>
-            </symbol>
-            <symbol id="icon-linkedin" viewBox="0 0 1024 1024">
-                <title>linkedin</title>
-                <path class="path1" d="M256 153.6c0 54.374-36.352 101.171-102.451 101.171-62.208 0-102.349-44.134-102.349-98.509 0-55.808 38.912-105.062 102.4-105.062s101.171 46.592 102.4 102.4zM51.2 972.8v-665.6h204.8v665.6h-204.8z"></path>
-                <path class="path2" d="M358.4 534.733c0-79.104-2.611-145.203-5.222-202.291h184.013l9.114 88.218h3.891c25.907-41.523 89.395-102.4 195.686-102.4 129.638 0 226.918 86.784 226.918 273.51v381.030h-204.8v-351.283c0-81.613-31.078-143.872-102.4-143.872-54.374 0-81.613 44.032-95.898 80.333-5.222 13.005-6.502 31.13-6.502 49.306v365.517h-204.8v-438.067z"></path>
-            </symbol>  
-            <symbol id="icon-keybase" viewBox="0 0 412 512">
-                <title>keybase</title>
-                <path class="path1" d="M177.2 430.9c0 9.8-8 17.8-17.8 17.8s-17.8-8-17.8-17.8 8-17.8 17.8-17.8c9.8-.1 17.8 7.9 17.8 17.8zM270 413c-9.8 0-17.8 8-17.8 17.8s8 17.8 17.8 17.8 17.8-8 17.8-17.8-8-17.8-17.8-17.8zm142.3-36c0 38.9-7.6 73.9-22.2 103h-27.3c23.5-38.7 30.5-94.8 22.4-134.3-16.1 29.5-52.1 38.6-85.9 28.8-127.8-37.5-192.5 19.7-234.6 50.3l18.9-59.3-39.9 42.3c4.8 26.7 15.7 51.3 31.2 72.3H46.1c-9.7-15.8-17.2-33-22.2-51.3L.1 454c0-74.9-5.5-147.6 61.5-215.2 20.2-20.4 43.7-36.2 69.1-46.7-6.8-13.5-9.5-29.2-7.8-46l-19.9-1.2c-17.9-1.1-31.6-16.5-30.6-34.4v-.1L74 84.2c1.1-17.1 15.4-30.6 32.5-30.6 1.3 0-.3-.1 28.2 1.7 13.9.8 21.5 9.8 22.8 11.4 7.1-10.4 14.5-20.5 24.6-34.5l20.6 12.1c-13.6 29-9.1 36.2-9 36.3 3.9 0 13.9-.5 32.4 5.7C246 92.9 262 107 271 126c.4.9 15.5 29 1.2 62.6 19 6.1 51.3 19.9 82.4 51.8 36.6 37.6 57.7 87.4 57.7 136.6zM128 122.3c3.2-10 7.7-19.7 13.1-29.4.1-2 2.2-13.1-7.8-13.8-28.5-1.8-26.3-1.6-26.7-1.6-4.6 0-8.3 3.5-8.6 8.1l-1.6 26.2c-.3 4.7 3.4 8.8 8.1 9.1l23.5 1.4zm25.8 61.8c5.6 9.4 14.1 16.1 22.3 20 0-21.2 28.5-41.9 52.8-17.5l8.4 10.3c20.8-18.8 19.4-45.3 12.1-60.9-13.8-29.1-46.9-32-54.3-31.7-10.3.4-19.7-5.4-23.7-15.3-13.7 21.2-37.2 62.5-17.6 95.1zm82.9 68.4L217 268.6c-1.9 1.6-2.2 4.4-.6 6.3l8.9 10.9c1 1.2 3.8 2.7 6.3.6l19.6-16 5.5 6.8c4.9 6 13.8-1.4 9-7.3-63.6-78.3-41.5-51.1-55.3-68.1-4.7-6-13.9 1.4-9 7.3 1.9 2.3 18.4 22.6 19.8 24.3l-9.6 7.9c-4.6 3.8 2.6 13.3 7.4 9.4l9.7-8 8 9.8zm118.4 25.7c-16.9-23.7-42.6-46.7-73.4-60.4-7.9-3.5-15-6.1-22.9-8.6-2 2.2-4.1 4.3-6.4 6.2l31.9 39.2c10.4 12.7 8.5 31.5-4.2 41.9-1.3 1.1-13.1 10.7-29 4.9-2.9 2.3-10.1 9.9-22.2 9.9-8.6 0-16.6-3.8-22.1-10.5l-8.9-10.9c-6.3-7.8-7.9-17.9-5-26.8-8.2-9.9-8.3-21.3-4.6-30-7.2-1.3-26.7-6.2-42.7-21.4-55.8 20.7-88 64.4-101.3 91.2-14.9 30.2-18.8 60.9-19.9 90.2 8.2-8.7-3.9 4.1 114-120.9l-29.9 93.6c57.8-31.1 124-36 197.4-14.4 23.6 6.9 45.1 1.6 56-13.9 11.1-15.6 8.5-37.7-6.8-59.3zM110.6 107.3l15.6 1 1-15.6-15.6-1-1 15.6z"></path>
-            </symbol>     
-            <symbol id="icon-key" viewBox="0 0 512 512">
-                <title>key</title>
-                <path class="path1" d="M512 176.001C512 273.203 433.202 352 336 352c-11.22 0-22.19-1.062-32.827-3.069l-24.012 27.014A23.999 23.999 0 0 1 261.223 384H224v40c0 13.255-10.745 24-24 24h-40v40c0 13.255-10.745 24-24 24H24c-13.255 0-24-10.745-24-24v-78.059c0-6.365 2.529-12.47 7.029-16.971l161.802-161.802C163.108 213.814 160 195.271 160 176 160 78.798 238.797.001 335.999 0 433.488-.001 512 78.511 512 176.001zM336 128c0 26.51 21.49 48 48 48s48-21.49 48-48-21.49-48-48-48-48 21.49-48 48z"></path>               
-            </symbol>    
-            <symbol id="icon-mapmarker" viewBox="0 0 384 512">
-                <title>mapmarker</title>
-                <path class="path1" d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path>
-            </symbol>    
-        </defs>
-    </svg>
+    <link rel="stylesheet" href="css/all.css"> <!-- font-awesome -->
+    
     <!-- Script to generate my contact email address -->
     <script>
         // email address as base64 string
-        let encodedString = "aG91bGJyb29rLmFuZHJld0BvdXRsb29rLmNvbQo=";
+        let encodedString = "YW5kcmV3QGFuZHJld2hvdWxicm9vay5jb20K";
         function decode64() {
             // Decode the String
             var decodedString = atob(encodedString);
             document.getElementById("showEmail").innerHTML = "<p>" + decodedString + "</p>";
         }
     </script>
+    
     <!-- Capture site analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139056407-1"></script>
     <script>
@@ -54,35 +31,43 @@
         gtag('config', 'UA-139056407-1');
     </script>
 </head>
+
 <body>
 <div class="wrapper">
     <div id="main" class="container">
+        
         <!-- A picture of me -->
         <span class="link">
             <img class="selfie" alt="Andrew Houlbrook" src="img/head-img.png" />
         </span>     
+        
         <h1 class="title">Andrew Houlbrook</h1>
         <h3 class="subtitle">Information Security Professional</h3>
+        
         <!-- Places you can find me -->
         <div class="social-links">
             <a class="link" data-title="linkedin.com" href="http://linkedin.com/in/andrewhoulbrook" target="_blank">
-                <svg class="icon icon-linkedin" width="30" height="30"><use xlink:href="#icon-linkedin"></use></svg>
+                <i class="fab fa-linkedin fa-3x"></i>
             </a>
             <a class="link" data-title="github.com" href="https://github.com/andrewhoulbrook" target="_blank">
-                <svg class="icon icon-github" width="30" height="30"><use xlink:href="#icon-github"></use></svg>
+                <i class="fab fa-github fa-3x"></i>
             </a>      
             <a class="link" data-title="keybase.io" href="https://keybase.io/andrewhoulbrook" target="_blank">
-                <svg class="icon icon-keybase" width="30" height="30"><use xlink:href="#icon-keybase"></use></svg>
+                <i class="fab fa-keybase fa-3x"></i>
             </a>
-            <a class="link" data-title="United Kingdom" href="https://www.google.com/maps/place/London" target="_blank">
-                <svg class="icon icon-mapmarker" width="30" height="30"><use xlink:href="#icon-mapmarker"></use></svg>
+            <a class="link" data-title="Facebook" href="https://www.facebook.com/Worksop-Techcyclers-107531858058748" target="_blank">
+                <i class="fab fa-facebook fa-3x"></i>
+            </a>
+            <a class="link" data-title="Nottingham, UK" href="https://www.google.com/maps/place/Nottingham" target="_blank">
+                <i class="fas fa-map-marker-alt fa-3x"></i>
             </a>
         </div>
+        
         <!-- How to contact me -->
         <div class="contact">  
             <p><span>PGP Fingerprint: </span>0BF5 3F76 7EEB 64E6 8341 B2B5 8C0C 46FC 2972 C538  
                 <a class="link" data-title="Public Key" href="https://keybase.io/andrewhoulbrook/pgp_keys.asc?fingerprint=0bf53f767eeb64e68341b2b58c0c46fc2972c538" target="_blank">
-                    <svg class="icon icon-key" width="15" height="15"><use xlink:href="#icon-key"></use></svg>
+                    <i class="fas fa-key" aria-hidden="true"></i>
                 </a> 
             </p>
             <p><a class="link" href="https://keybase.io/andrewhoulbrook">Keybase</a> provides further proof that this key is mine</p>
@@ -93,6 +78,7 @@
         </div>
     </div>
 </div>
+
 <!-- Footer section -->
 <footer class="footer-main">Andrew Houlbrook © 2019 - 2021
     <p class="extra">
