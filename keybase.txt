@@ -1,15 +1,12 @@
-andrewhoulbrook
-Andrew Houlbrook
-Beijing, China
 ==================================================================
 https://keybase.io/andrewhoulbrook
 --------------------------------------------------------------------
 
 I hereby claim:
 
-  * I am an admin of https://andrewhoulbrook.github.io
+  * I am an admin of https://andrewhoulbrook.com
   * I am andrewhoulbrook (https://keybase.io/andrewhoulbrook) on keybase.
-  * I have a public key ASBpWp_deBCoWVUlY7dNYNeUtHD-qwuzhOIxy9Hc5tz4igo
+  * I have a public key ASC7iZSNRSoBWI7YTawFuor9HxJeVigx1WbCEwuPNNRwmwo
 
 To do so, I am signing this object:
 
@@ -18,19 +15,19 @@ To do so, I am signing this object:
     "key": {
       "eldest_kid": "012058bfbac78a2e3250af0bdcfcc342ecd160a577f9d61c6422c4374d00b0dc8e890a",
       "host": "keybase.io",
-      "kid": "0120695a9fdd7810a859552563b74d60d794b470feab0bb384e231cbd1dce6dcf88a0a",
+      "kid": "0120bb89948d452a01588ed84dac05ba8afd1f125e562831d566c2130b8f34d4709b0a",
       "uid": "479560587b2508c1535e5d4ada649c19",
       "username": "andrewhoulbrook"
     },
     "merkle_root": {
-      "ctime": 1599843314,
-      "hash": "9f892ea045a5d9b24fdc54970e9b762502327661eb2bf7c43b1e71ee1445b847e3ce1c1e844b7029990b849629f8c640da9edec6cd6359d3abf741135122bfe8",
-      "hash_meta": "dcb8af3df915253f675ab56b4757d0849360458636569e37534a685d34e18207",
-      "seqno": 17537604
+      "ctime": 1656699327,
+      "hash": "dc3d2558a91a2750528cf236bd55ea41d5abd8e6cfa91fad308d99dad6f5ec2c1777570120238a70b6cfd876e360a13f1da2c9381692bb1c7d83b9f31a555fde",
+      "hash_meta": "f5aeccf6ac8b9247b81090105f804b86fca3ebf47ef46db76bfd8c78de8dab23",
+      "seqno": 22775369
     },
     "service": {
-      "entropy": "E8Pta4cRtDQtifCMpQ6ytmZs",
-      "hostname": "andrewhoulbrook.github.io",
+      "entropy": "mQS+D0+zR61BUYsVQ51z7bwV",
+      "hostname": "andrewhoulbrook.com",
       "protocol": "https:"
     },
     "type": "web_service_binding",
@@ -38,18 +35,18 @@ To do so, I am signing this object:
   },
   "client": {
     "name": "keybase.io go client",
-    "version": "5.5.1"
+    "version": "6.0.2"
   },
-  "ctime": 1599843383,
+  "ctime": 1656699380,
   "expire_in": 504576000,
-  "prev": "533050a57a8e5b776b48f5afc7410ac481ada93616967be6c587aadf5b427819",
-  "seqno": 28,
+  "prev": "f52b62f3c726687d452dbf45e24b914aee190a45d7dd0816e09273ecc973cb0a",
+  "seqno": 43,
   "tag": "signature"
 }
 
 which yields the signature:
 
-hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgaVqf3XgQqFlVJWO3TWDXlLRw/qsLs4TiMcvR3Obc+IoKp3BheWxvYWTESpcCHMQgUzBQpXqOW3drSPWvx0EKxIGtqTYWlnvmxYeq31tCeBnEIKOkUVfboGgzeh+hhdfJxoKTERJIKUdI0hy3DKI8Ru1kAgHCo3NpZ8RAjjQRfAvSvy5Cx6aPwDogqwyAc48O+3VvxrYn+HQr9U6Y8E3NWeOmwkhqdbiSGCvEEdtH+zfGzZBE+txZgD78AqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIDTTpubL4r24ud8PMnTtKJ/HlD7mN3wrEIgoj90MGBgRo3RhZ80CAqd2ZXJzaW9uAQ==
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgu4mUjUUqAViO2E2sBbqK/R8SXlYoMdVmwhMLjzTUcJsKp3BheWxvYWTESpcCK8Qg9Sti88cmaH1FLb9F4kuRSu4ZCkXX3QgW4JJz7MlzywrEINtyFTbIjxZN1L9mGLwAWNfBMljRPg74Taz010c5kt0YAgHCo3NpZ8RARUUMsRVxHw7qmc6LvJDb1Va91fM1EZHORUs/e19mWC+EdRGIWwFxi2OoarAW2+lfbG8H/Q3RlzA+yKxVE1UwD6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIGKqroUC5ooDXYEy35OA7WBXaATbnV+zCFw6j2uAYiX3o3RhZ80CAqd2ZXJzaW9uAQ==
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
