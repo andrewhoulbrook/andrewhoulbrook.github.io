@@ -110,13 +110,19 @@ p {
 }
 
 .title{
-    font-size: 3rem;
+    font-size: 3.5rem;
     margin: 0 0 13px;
 }
 
-.subtitle{
+.subtitle-p{
     font-size: 2rem;
     padding: 0;
+    margin: 0 0;
+}
+
+.subtitle-o{
+    font-size: 2rem;
+    padding: 1rem;
     margin: 0 0;
 }
 
@@ -131,12 +137,14 @@ p {
 
 .social-links{
     margin-top: 20px;
+    font-size: 4rem;
+    font-style: normal;
 }
 
 .social-links .link{
     margin: 0;
     text-decoration: none;
-    padding: 7px;
+    padding: 5px;
     position: relative;
     display: inline-block;
     height: 35px;
@@ -215,6 +223,12 @@ p {
 .contact span {
 	font-weight: 400;
 	color: #0095f7;
+}
+
+.contact #emailDecode {
+    width: 10em; 
+    height: 2.5em;
+
 }
 
 /* Footer */
